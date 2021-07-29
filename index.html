@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <div class="calc-container">
+      <header class="calc-header">
+        <h1>calc</h1>
+        <div class="theme">
+          <span class="theme-text">theme</span>
+          <div class="theme-switcher">
+            <label for="default">
+              <small>1</small>
+              <input
+                type="radio"
+                id="default"
+                name="theme"
+                data-theme="default"
+                value="default"
+                checked
+              />
+              <span class="indicator"></span>
+            </label>
+            <label for="light">
+              <small>2</small>
+              <input
+                type="radio"
+                id="light"
+                name="theme"
+                data-theme="light"
+                value="light"
+              />
+              <span class="indicator"></span>
+            </label>
+            <label for="dark">
+              <small>3</small>
+              <input
+                type="radio"
+                id="dark"
+                name="theme"
+                data-theme="dark"
+                value="dark"
+              />
+              <span class="indicator"></span>
+            </label>
+            <div class="switch-slider"></div>
+          </div>
+        </div>
+      </header>
+      <!-- screen -->
+      <div class="screen">
+        <p id="preview"></p>
+        <p id="display">0</p>
+      </div>
+      <!-- keypad -->
+      <div class="keypad">
+        <button class="key number" data-key="7">7</button>
+        <button class="key number" data-key="8">8</button>
+        <button class="key number" data-key="9">9</button>
+        <button class="key delete" data-key="delete">Del</button>
+        <button class="key number" data-key="4">4</button>
+        <button class="key number" data-key="5">5</button>
+        <button class="key number" data-key="6">6</button>
+        <button class="key operator" data-key="addition" data-symbol="+">
+          +
+        </button>
+        <button class="key number" data-key="1">1</button>
+        <button class="key number" data-key="2">2</button>
+        <button class="key number" data-key="3">3</button>
+        <button class="key operator" data-key="subtraction" data-symbol="-">
+          -
+        </button>
+        <button class="key decimal" data-key="decimal">.</button>
+        <button class="key number" data-key="0">0</button>
+        <button class="key operator" data-key="division" data-symbol="÷">
+          ／
+        </button>
+        <button class="key operator" data-key="multiplication" data-symbol="×">
+          ×
+        </button>
+        <button class="key reset span-2" data-key="reset">Reset</button>
+        <button class="key equal span-2" data-key="equal">=</button>
+      </div>
+    </div>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
