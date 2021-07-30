@@ -89,8 +89,8 @@ function calculate() {
 
   if (isNaN(result) || result == Infinity) return alert("tidak bisa dibagi!");
 
-  firstOperand = result;
-  display.textContent = result;
+  firstOperand = Number.isInteger(result) ? result : result.toFixed(2);
+  display.textContent = firstOperand;
   preview.textContent = "";
   operator = null;
 }
