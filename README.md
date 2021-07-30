@@ -29,7 +29,7 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 
 ## Links
 
-- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/responsive-sunnyside-agency-landing-page-using-html-css-and-js-T3VvmpLcB)
+- Solution URL: https://www.frontendmentor.io/solutions/calculator-app-with-3-themes-1VzNQWh4N
 - Live Site URL / Demo: [live site URL](https://dreamy-mccarthy-5c8425.netlify.app/)
 
 ## Built with
