@@ -224,9 +224,3 @@ body {
 .keypad .span-2 {
   grid-column: span 2;
 }
-
-@media (preders-color-scheme: dark) {
-  body {
-    display: none;
-  }
-}
